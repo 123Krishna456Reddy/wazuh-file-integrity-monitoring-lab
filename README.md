@@ -60,10 +60,10 @@ Wazuh successfully generated alerts for:
 
 ## Incident Analysis
 
-MITRE ATT&CK Technique:
+MITRE ATTACK Technique:
 T1565 – Data Manipulation
 
-![MITRE ATT&CK Technique](images/mitre-attack-technique.png)
+![MITRE ATTACK Technique](images/mitre-attack-technique.png)
 
 Potential Risks:
 - Unauthorized configuration changes
