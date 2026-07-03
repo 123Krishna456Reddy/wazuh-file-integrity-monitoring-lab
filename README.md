@@ -36,22 +36,26 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 - Root privileges
 
 ## Configure File Integrity Monitoring
-
+```bash
 - nano /var/ossec/etc/ossec.conf
-
+```
   
 - Now, scroll a little and look for <syscheck> with the comment File Integrity Monitoring. You should see the <disabled> tag is set to   NO, meaning it’s enabled.
 
 ## Restart Wazuh Agent
-- systemctl restart wazuh-agent
+```bash
+sudo systemctl restart wazuh-agent
+```
 
 ## Verify Configuration
+```
 - systemctl status wazuh-agent
-
+```
 ## Attack Simulation
 ### Create a File
+```
 - touch newfile.txt
-
+```
   ![Create a File](images/Create-a-File.png)
 
 ## Detection Results
