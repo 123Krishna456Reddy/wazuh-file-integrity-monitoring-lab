@@ -26,7 +26,7 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 | Monitoring Feature | File Integrity Monitoring (FIM) |
 
 ## Architecture Diagram
-![Architecture_Diagram](images/Architecture_Diagram.PNG)
+![Architecture_Diagram](Architecture_Diagram.PNG)
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ sudo systemctl restart wazuh-agent
 ```
 - touch newfile.txt
 ```
-  ![Create a File](images/Create-a-File.png)
+  ![Create a File](Create-a-File.png)
 
 ## Detection Results
 
@@ -64,14 +64,14 @@ Wazuh successfully generated alerts for:
 
 - File creation
 
-![Detection Results](images/Detection-Results.png)
+![Detection Results](Detection-Results.png)
 
 ## Incident Analysis
 
 MITRE ATTACK Technique:
 T1565 – Data Manipulation
 
-![MITRE ATTACK Technique](images/mitre-attack-technique.png)
+![MITRE ATTACK Technique](mitre-attack-technique.png)
 
 Potential Risks:
 - Unauthorized configuration changes
