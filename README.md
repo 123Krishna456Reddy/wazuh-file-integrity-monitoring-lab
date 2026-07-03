@@ -62,6 +62,7 @@ Wazuh successfully generated alerts for:
 
 MITRE ATT&CK Technique:
 T1565 – Data Manipulation
+![MITRE ATT&CK Technique](images/MITRE ATT&CK Technique.png)
 
 Potential Risks:
 - Unauthorized configuration changes
