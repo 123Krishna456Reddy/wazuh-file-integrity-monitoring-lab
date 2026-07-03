@@ -39,7 +39,8 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 ```bash
  nano /var/ossec/etc/ossec.conf
 ```
-  
+![ossec.conf_file](/ossec.conf_file.png)
+
 - Now, scroll a little and look for <syscheck> with the comment File Integrity Monitoring. You should see the <disabled> tag is set to   NO, meaning it’s enabled.
 
 ## Restart Wazuh Agent
