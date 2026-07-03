@@ -26,7 +26,7 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 | Monitoring Feature | File Integrity Monitoring (FIM) |
 
 ## Architecture Diagram
-![Architecture Diagram](images/Architecture Diagram.png)
+![Architecture Diagram](images/Architecture.png)
 
 ## Prerequisites
 
