@@ -52,11 +52,15 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 ### Create a File
 - touch newfile.txt
 
+  ![Create a File](images/Create-a-File.png)
+
 ## Detection Results
 
 Wazuh successfully generated alerts for:
 
 - File creation
+
+![Detection Results](images/Detection-Results.png)
 
 ## Incident Analysis
 
