@@ -50,7 +50,7 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 
 ## Attack Simulation
 ### Create a File
--touch newfile.txt
+- touch newfile.txt
 
 ## Detection Results
 
