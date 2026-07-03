@@ -37,7 +37,7 @@ The lab simulates real-world scenarios where attackers modify sensitive files, a
 
 ## Configure File Integrity Monitoring
 ```bash
-- nano /var/ossec/etc/ossec.conf
+ nano /var/ossec/etc/ossec.conf
 ```
   
 - Now, scroll a little and look for <syscheck> with the comment File Integrity Monitoring. You should see the <disabled> tag is set to   NO, meaning it’s enabled.
@@ -49,12 +49,12 @@ sudo systemctl restart wazuh-agent
 
 ## Verify Configuration
 ```
-- systemctl status wazuh-agent
+ systemctl status wazuh-agent
 ```
 ## Attack Simulation
 ### Create a File
 ```
-- touch newfile.txt
+ touch newfile.txt
 ```
   ![Create a File](Create-a-File.png)
 
@@ -69,7 +69,7 @@ Wazuh successfully generated alerts for:
 ## Incident Analysis
 
 MITRE ATTACK Technique:
-T1565 – Data Manipulation
+T1565 – Stored Data Manipulation
 
 ![MITRE ATTACK Technique](mitre-attack-technique.png)
 
